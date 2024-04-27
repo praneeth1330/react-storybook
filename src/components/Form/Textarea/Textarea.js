@@ -1,14 +1,13 @@
 import React from 'react'
-import "./input.css"
 
-const Input = (Props) => {
-    const {size="md"} =Props
+const Textarea = ({size}) => {
   return (
     <div>
+
     <input type="text" className={`${size} input`} />
       
     </div>
   )
 }
 
-export default Input
+export default Textarea
