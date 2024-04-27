@@ -1,4 +1,5 @@
 import React from 'react'
+import './button.css'
 
 const Button = (Props) => {
     const {variant="primary ", children ,...rest  }=Props
