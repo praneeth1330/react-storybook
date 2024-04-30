@@ -1,12 +1,10 @@
 import React from 'react'
+import './textarea.css'
 
-const Textarea = ({size}) => {
+function Textarea (props) {
+  const { size = 'medium', ...rest } = props
   return (
-    <div>
-
-    <input type="text" className={`${size} input`} />
-      
-    </div>
+    <input className={`input ${size}`} {...rest} />
   )
 }
 
